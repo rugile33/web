@@ -1,3 +1,4 @@
+* {font-family: 'Roboto', sans-serif;}
 
 header {
     background-image: url(/img/4ab722589c23f28fc9faf570069c5f998b74a114.jpg);
@@ -60,13 +61,16 @@ ul{
     width: 100px;
     color: rgb(229, 226, 226);
     
-    
-
 }
 nav{
     color: rgb(229, 226, 226);
     text-align: left;
     list-style-type: none
+}
+
+h4{
+    text-align: center;
+    color: #e6e3e3;
 }
 
 h3{
@@ -81,11 +85,21 @@ h1 {
     
 }
 
-p {
-    color: rgb(229, 226, 226);
-    text-align: center;
+h2{
+    color: rgb(8, 8, 8);
+    text-align: left;
     font-family: sans-serif;
     margin-bottom: 10%;
+    padding-top: 25px;
+}
+
+p {
+    color: rgb(8, 8, 8);
+    text-align: left;
+    font-family: sans-serif;
+    margin-bottom: 10%;
+    padding-bottom: 50px;
+    
      ;
 }
 
@@ -107,10 +121,17 @@ p {
     text-decoration: none;
     float: right;
     color: #ece1e1;
-    padding: 10px 10px;
-    ;
-    
-  
-    
+    padding: 5px 5px;
 
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2em;
+    grid-auto-rows: 460px;
+    align-items:  ;
+    
+    
+}
+

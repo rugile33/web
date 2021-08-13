@@ -138,8 +138,9 @@ p {
     border-start-start-radius: 100%;
     box-sizing: border-box;
     cursor: pointer;
-    display: block;
     width: 30px;
+    margin-bottom: -4%;
+   
     
 }
 
@@ -182,4 +183,28 @@ display: grid;
 
 .container{
     background-color: black;
+    padding: 30px 5px;
+    
+}
+
+.site-foot-nav-right{
+    display: inline;
+    float: right;
+    padding: 5px 5px;
+    column-gap: 20px;
+}
+
+.card-info{
+    padding: 3px 20px;
+    text-align: right;
+    color: black;
+    
+}
+
+.card-link{
+    display: inline;
+    float: left;
+    padding: 2px 60px;
+    color: black;
+   
 }
